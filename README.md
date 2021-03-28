@@ -2,7 +2,7 @@
 
 ## [Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening](https://ieeexplore.ieee.org/document/8874962)
 
-
+![](IEEE_GRSL_DRCNN/flowchart.tiff "Framework of the proposed method for hyperspectral pansharpening.")
 
 ## Citation
 Y. Zheng, J. Li, Y. Li, K. Cao and K. Wang, "Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening," in IEEE Geoscience and Remote Sensing Letters, vol. 17, no. 8, pp. 1435-1439, Aug. 2020, doi: 10.1109/LGRS.2019.2945424.
