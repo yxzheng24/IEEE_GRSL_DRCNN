@@ -16,3 +16,8 @@ Y. Zheng, J. Li, Y. Li, K. Cao and K. Wang, "Deep Residual Learning for Boosting
     number={8},
     pages={1435-1439},
     doi={10.1109/LGRS.2019.2945424}}
+
+
+## Contact Information
+Yuxuan Zheng is with the State Key Laboratory of Integrated Services Networks, School of Telecommunications Engineering, Xidian University, Xi’an 710071, China (e-mail:
+[yxzheng24@163.com]).
