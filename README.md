@@ -4,6 +4,8 @@
 
 ## [Hyperspectral Pansharpening Based on Guided Filter and Deep Residual Learning](https://ieeexplore.ieee.org/document/8899015)
 
+Keras implementation of our proposed DRCNN method for hyperspectral pansharpening.
+
 ![Framework](https://github.com/yxzheng24/IEEE_GRSL_DRCNN/blob/main/Framework_GRSL20.png "Framework of the proposed method for hyperspectral pansharpening.")
 
 ## Usage
