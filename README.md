@@ -10,14 +10,23 @@
 Here we take the experiments conducted on the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set as an example for illustration.
 
 *   Training:
-1.   Download the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set and put the data into the "./data_process/cave_ref" folder, which are served as the reference images.
-2.   Run "get_hspan_cave.m" to obtain LR-HSI and HR-PAN images.
-3.   Run "get_Hini_Hres_cave.m" to genertate the initialized HSI and the residual HSI.
-4.   Randomly select 22 HSI pairs from "cave_Hini" and "cave_Hres" folders to form the training set.
-5.   Run "get_traindata_h5.m" to produce the HDF5 file for training.
-6.   Run **train_DRCNN.py**.
+1.   Download the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set and put the data into the __./data_process/cave_ref__ folder, which are served as the reference images.
+2.   Run *"get_hspan_cave.m"* to obtain LR-HSI and HR-PAN images.
+3.   Run *"get_Hini_Hres_cave.m"* to genertate the initialized HSI and the residual HSI.
+4.   Randomly select 22 HSI pairs from __./data_process/cave_Hini__ and __./data_process/cave_Hres__ folders to form the training set.
+5.   Run *"get_traindata_h5.m"* to produce the HDF5 file for training.
+6.   Run *"train_DRCNN.py"*.
+
+*   Testing: 
+    
+    Run *"test_DRCNN.py"* by utilizing the pretrained model __./models/model_cave.h5__ to obtain the fused HSIs.
+
+## Requirements
+Latest version was tested on Ubuntu 16.04, using Python 3.6.10, Tensorflow 1.10.0, Keras 2.2.4 and Matlab R2017a.
 
 ## Citation
+If you find this code helpful, please kindly cite the following papers:
+
 (1) Y. Zheng, J. Li, Y. Li, K. Cao and K. Wang, "Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening," IEEE Geoscience and Remote Sensing Letters, vol. 17, no. 8, pp. 1435-1439, Aug. 2020, doi: 10.1109/LGRS.2019.2945424.
 
 (2) Y. Zheng, J. Li and Y. Li, "Hyperspectral Pansharpening Based on Guided Filter and Deep Residual Learning," 2019 IEEE International Geoscience and Remote Sensing Symposium, Jul. 2019, pp. 616-619, doi: 10.1109/IGARSS.2019.8899015.
@@ -43,4 +52,6 @@ Here we take the experiments conducted on the [CAVE](https://www1.cs.columbia.ed
     doi={10.1109/IGARSS.2019.8899015}}
 
 ## Contact Information
+If you have any problem, please do not hesitate to contact Yuxuan Zheng (e-mail: yxzheng24@163.com).
+
 Yuxuan Zheng is with the State Key Laboratory of Integrated Services Networks, School of Telecommunications Engineering, Xidian University, Xi’an 710071, China (e-mail: yxzheng24@163.com).
