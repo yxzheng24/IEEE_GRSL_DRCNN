@@ -2,6 +2,8 @@
 
 ## [Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening](https://ieeexplore.ieee.org/document/8874962)
 
+## [Hyperspectral Pansharpening Based on Guided Filter and Deep Residual Learning](https://ieeexplore.ieee.org/document/8899015)
+
 ![Framework](https://github.com/yxzheng24/IEEE_GRSL_DRCNN/blob/main/Framework_GRSL20.png "Framework of the proposed method for hyperspectral pansharpening.")
 
 ## Citation
@@ -22,7 +24,7 @@
     
     @INPROCEEDINGS{Zheng2019IGARSS,
     author={Zheng, Yuxuan and Li, Jiaojiao and Li, Yunsong},
-    booktitle={IGARSS 2019 - 2019 IEEE International Geoscience and Remote Sensing Symposium}, 
+    booktitle={2019 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2019)}, 
     title={Hyperspectral Pansharpening Based on Guided Filter and Deep Residual Learning}, 
     year={2019},
     month={Jul.},
