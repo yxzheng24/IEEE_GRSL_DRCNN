@@ -56,4 +56,4 @@ If you find this code helpful, please kindly cite the following papers:
 ## Contact Information
 If you have any problem, please do not hesitate to contact Yuxuan Zheng (e-mail: yxzheng24@163.com).
 
-Yuxuan Zheng is with the State Key Laboratory of Integrated Services Networks, School of Telecommunications Engineering, Xidian University, Xi’an 710071, China (e-mail: yxzheng24@163.com).
+Yuxuan Zheng is with the State Key Laboratory of Integrated Services Networks, School of Telecommunications Engineering, Xidian University, Xi’an 710071, China.
