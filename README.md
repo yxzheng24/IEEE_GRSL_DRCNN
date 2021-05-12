@@ -12,10 +12,10 @@
 Here we take the experiments conducted on the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set as an example for illustration.
 
 *   Training:
-1.   Download the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set and put the data into the __./data_process/cave_ref__ folder, which are served as the reference images.
+1.   Download the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set and put the data into the __./data_process/cave_ref/__ folder, which are served as the reference images.
 2.   Run *"get_hspan_cave.m"* to obtain LR-HSI and HR-PAN images.
 3.   Run *"get_Hini_Hres_cave.m"* to genertate the initialized HSI and the residual HSI.
-4.   Randomly select 22 HSI pairs from __./data_process/cave_Hini__ and __./data_process/cave_Hres__ folders to form the training set.
+4.   Randomly select 22 HSI pairs from __./data_process/cave_Hini/__ and __./data_process/cave_Hres/__ folders to form the training set.
 5.   Run *"get_traindata_h5.m"* to produce the HDF5 file for training.
 6.   Run *"train_DRCNN.py"*.
 
