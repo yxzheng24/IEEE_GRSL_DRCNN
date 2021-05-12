@@ -4,7 +4,7 @@
 
 ## [Hyperspectral Pansharpening Based on Guided Filter and Deep Residual Learning](https://ieeexplore.ieee.org/document/8899015)
 
-Keras implementation of our proposed DRCNN method for hyperspectral pansharpening.
+**Tensorflow implementation of our proposed DRCNN method for hyperspectral pansharpening.**
 
 ![Framework](https://github.com/yxzheng24/IEEE_GRSL_DRCNN/blob/main/Framework_GRSL20.png "Framework of the proposed method for hyperspectral pansharpening.")
 
@@ -22,6 +22,12 @@ Here we take the experiments conducted on the [CAVE](https://www1.cs.columbia.ed
 *   Testing: 
     
     Run *"test_DRCNN.py"* by utilizing the pretrained model __./models/model_cave.h5__ to obtain the fused HSIs.
+
+    Note that due to the large size of testing images, you may need to first manually download the 10 initialized HSIs (*.mat files) to your local folder under path __./data_process/cave_Hini/test_10Hini/__ by the given links of Baidu Cloud below.
+
+    Baidu Cloud links: https://pan.baidu.com/s/1fdy4SBryu6I8o-rt_1jZuA
+    
+    Access Code: c838
 
 ## Requirements
 Latest version was tested on Ubuntu 16.04, using Python 3.6.10, Tensorflow 1.10.0, Keras 2.2.4 and Matlab R2017a.
