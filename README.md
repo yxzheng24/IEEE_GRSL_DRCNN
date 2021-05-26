@@ -12,7 +12,7 @@
 Here we take the experiments conducted on the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set as an example for illustration.
 
 *   Training:
-1.   Download the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set and put the data into the __./data_process/cave_ref/__ folder, which are served as the reference images.
+1.   Download the [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/) data set and put the data into the __./data_process/cave_ref/__ folder, which are served as the reference images. Note that you can also download the CAVE data set (in .mat format) from the Baidu Cloud links: https://pan.baidu.com/s/1tmuanIjXLXTEdaAsRxq1fw (Access Code: 3e53).
 2.   Run *"get_hspan_cave.m"* to obtain LR-HSI and HR-PAN images.
 3.   Run *"get_Hini_Hres_cave.m"* to genertate the initialized HSI and the residual HSI.
 4.   Randomly select 22 HSI pairs from __./data_process/cave_Hini/__ and __./data_process/cave_Hres/__ folders to form the training set.
